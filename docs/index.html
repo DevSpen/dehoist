@@ -16,11 +16,18 @@
 </a>
 <p>Remove hoisting characters from a string.</p>
 
+<a href="#installation" id="installation" style="color: inherit; text-decoration: none;">
+  <h3>Installation</h3>
+</a>
+<p>Install dehoist with your preferred package manager.</p>
+<pre><code class="language-sh"><span class="hl-0">npm install dehoist</span><br/><span class="hl-0">yarn add dehoist</span><br/><span class="hl-0">pnpm add dehoist</span>
+</code></pre>
+
 <a href="#examples" id="examples" style="color: inherit; text-decoration: none;">
   <h3>Examples</h3>
 </a>
-<p>Check out the <a href="https://example.org">documentation</a> for more information.</p>
-<pre><code class="language-ts"><span class="hl-0">import</span><span class="hl-1"> { </span><span class="hl-2">dehoist</span><span class="hl-1">, </span><span class="hl-2">dehoistStart</span><span class="hl-1"> } </span><span class="hl-0">from</span><span class="hl-1"> </span><span class="hl-3">&quot;dehoist&quot;</span><span class="hl-1">;</span><br/><br/><span class="hl-4">dehoist</span><span class="hl-1">(</span><span class="hl-3">&quot;.!fo;o&quot;</span><span class="hl-1">) </span><span class="hl-5">// &quot;foo&quot;</span><br/><span class="hl-4">dehoistStart</span><span class="hl-1">(</span><span class="hl-3">&quot;!;foo!&quot;</span><span class="hl-1">) </span><span class="hl-5">// &quot;foo!&quot;</span><br/><span class="hl-4">dehoistStart</span><span class="hl-1">(</span><span class="hl-3">&quot;!9foo&quot;</span><span class="hl-1">) </span><span class="hl-5">// &quot;9foo&quot;</span>
+<p>Check out the <a href="https://devspen.github.io/dehoist/">documentation</a> for more information.</p>
+<pre><code class="language-ts"><span class="hl-1">import</span><span class="hl-0"> { </span><span class="hl-2">dehoist</span><span class="hl-0">, </span><span class="hl-2">dehoistStart</span><span class="hl-0"> } </span><span class="hl-1">from</span><span class="hl-0"> </span><span class="hl-3">&quot;dehoist&quot;</span><span class="hl-0">;</span><br/><br/><span class="hl-4">dehoist</span><span class="hl-0">(</span><span class="hl-3">&quot;.!fo;o&quot;</span><span class="hl-0">); </span><span class="hl-5">// &quot;foo&quot;</span><br/><span class="hl-4">dehoistStart</span><span class="hl-0">(</span><span class="hl-3">&quot;!;foo!&quot;</span><span class="hl-0">); </span><span class="hl-5">// &quot;foo!&quot;</span><br/><span class="hl-4">dehoistStart</span><span class="hl-0">(</span><span class="hl-3">&quot;!9foo&quot;</span><span class="hl-0">); </span><span class="hl-5">// &quot;9foo&quot;</span>
 </code></pre>
 </div></div>
 <div class="col-4 col-menu menu-sticky-wrap menu-highlight">

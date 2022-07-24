@@ -2,7 +2,7 @@
  * Removes all hoisting characters from a string.
  * @param str The string to dehoist.
  * @returns A new string with all hoisting characters removed.
- *
+ * @example
  * ```ts
  * const str = "!!fo;o";
  * const newStr = dehoist(str);
@@ -24,7 +24,7 @@ export function dehoist(str: string) {
  * Removes all hoisting characters from the start string.
  * @param str The string to dehoist the start of.
  * @returns A new string with all hoisting characters at the start removed.
- *
+ * @example
  * ```ts
  * const str = "!!fo;o";
  * const newStr = dehoistStart(str);
