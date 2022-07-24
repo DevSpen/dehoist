@@ -10,7 +10,7 @@
     "test": "node dist/index.test.js",
     "docs": "npx typedoc src/index.ts"
   },
-  "keywords": [],
+  "keywords": ["dehoist", "dehoister", "hoisting", "hoisting characters", "dehoist nickname", "discord dehoist", "discord-dehoist"],
   "author": "",
   "license": "ISC",
   "devDependencies": {
